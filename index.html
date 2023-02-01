@@ -9,18 +9,18 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="container py-5">
+    <div class="container biglietto py-5">
         <div id="form" >
             <input type="text" placeholder="Distanza kilometri">
-            <select name="sconti" id="">
+            <select id="sconti" name="sconti">
                 <option value="">--seleziona sconto--</option>
                 <option value="1">sconto minorenni</option>
                 <option value="2">sconto over 65</option>
                 <option value="3">nessuno sconto</option>
             </select>
         </div>
-            <input type="button" value="applica">
-            <div id="costo-biglietto">Il prezzo del tuo biglietto è:</div>
+            <input id="btn" type="button" value="Applica">
+            <div class="fs-4" id="costo-biglietto">Prezzo biglietto:</div>
     </div>
     <script src="./app.js"></script>
 </body>
